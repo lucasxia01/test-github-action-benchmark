@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738100610615,
+  "lastUpdate": 1738104181543,
   "repoUrl": "https://github.com/lucasxia01/test-github-action-benchmark",
   "entries": {
     "C++ Benchmark": [
@@ -60,6 +60,36 @@ window.BENCHMARK_DATA = {
             "value": "3280.56",
             "unit": "ns/iter",
             "extra": "iterations: 1\ncpu: 3280.56 ns\nthreads: 16"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lucasxia01@gmail.com",
+            "name": "Lucas Xia",
+            "username": "lucasxia01"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b96eb7a4960735651e8095daf264b9dd7e0e190",
+          "message": "Update bench.json",
+          "timestamp": "2025-01-28T17:42:49-05:00",
+          "tree_id": "be007601c4586db9b7a503d60d5727968096c45e",
+          "url": "https://github.com/lucasxia01/test-github-action-benchmark/commit/4b96eb7a4960735651e8095daf264b9dd7e0e190"
+        },
+        "date": 1738104180682,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "wasmUltraHonkVerifierWasmMemory",
+            "value": "3280.56",
+            "unit": "MiB/iter",
+            "extra": "iterations: undefined\ncpu: undefined MiB\nthreads: undefined"
           }
         ]
       }
