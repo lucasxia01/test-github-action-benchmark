@@ -2,11 +2,8 @@
     "benchmarks": [
         {
             "name": "wasmUltraHonkVerifierWasmMemory",
-            "threads": 16,
-            "iterations": 1,
             "real_time": "3280.56",
-            "cpu_time": "3280.56",
-            "time_unit": "ns"
+            "time_unit": "MiB"
         }
     ]
 }
