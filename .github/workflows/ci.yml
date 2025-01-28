@@ -13,5 +13,5 @@ jobs:
           name: C++ Benchmark
           tool: "googlecpp"
           output-file-path: bench.json
-          auto-push: true
+          auto-push: false
           max-items-in-chart: 50
