@@ -1,18 +1,12 @@
 {
     "benchmarks": [
         {
-            "name": "nativeClientIVCBench/Ambient_17_in_20/6",
-            "family_index": 0,
-            "per_family_instance_index": 0,
-            "run_name": "nativeClientIVCBench/Ambient_17_in_20/6",
-            "run_type": "iteration",
-            "repetitions": 1,
-            "repetition_index": 0,
-            "threads": 1,
+            "name": "wasmUltraHonkVerifierWasmMemory",
+            "threads": 16,
             "iterations": 1,
-            "real_time": 42039.371671155095,
-            "cpu_time": 19569.430315,
-            "time_unit": "ms"
+            "real_time": "3280.56",
+            "cpu_time": "3280.56",
+            "time_unit": "ns"
         }
     ]
 }
