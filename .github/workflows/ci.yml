@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+jobs:
+  bench-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+      - uses: benchmark-action/github-action-benchmark@4de1bed97a47495fc4c5404952da0499e31f5c29
+        with:
+          name: C++ Benchmark
+          tool: "googlecpp"
+          output-file-path: bench.json
+          auto-push: true
+          max-items-in-chart: 50
